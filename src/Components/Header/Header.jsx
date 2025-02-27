@@ -1,5 +1,5 @@
 import React from 'react'
-import name from './../../assets/img/Intersect.png';
+import girlBg from './../../assets/img/Intersect.png';
 
 function Header() {
   return (
