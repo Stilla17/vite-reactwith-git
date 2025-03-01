@@ -4,7 +4,7 @@ import lupa from './../../assets/img/lupa.svg'
 import call from './../../assets/img/call.svg'
 function Nav() {
   return (
-    <div className='w-[1456px] mx-auto'>
+    <div className='w-[1300px] mx-auto'>
       <nav className='py-10 flex justify-between'>
         <div className='flex items-center'>
           <div className='text-white text-[30px] rounded-md flex justify-center items-center w-[40px] h-[40px] bg-green-400'>F</div><img src={logo} alt="" />

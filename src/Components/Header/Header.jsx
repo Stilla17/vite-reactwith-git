@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <Nav/>
-      <div className='w-[1456px] h-[100vh] mx-auto border-amber-500'>
+      <div className='w-[1300px] h-[100vh] mx-auto border-amber-500'>
 
         <div className='flex justify-between items-center'>
           {/* text */}
