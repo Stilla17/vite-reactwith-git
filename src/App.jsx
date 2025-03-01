@@ -10,16 +10,10 @@ function App() {
 
   return (
     <>
-        <h1>Umarjon</h1>
       <header>
-        {/* <button onClick={() => setCount(prev => prev - 1)}>-</button>
-        <h1>{count}</h1>
-        <button onClick={() => setCount(prev => prev + 1)}>+</button>
-        <Nav />
-        {/* nav */}
+        
 
         <Header />
-
       </header>
     </>
   )
