@@ -11,7 +11,7 @@ function Body() {
 
 <div className="flex items-center justify-between mt-[80px]">
 
-  <div className="w-[250px] h-[250px] rounded-2xl border-2 border-[#555555]">
+  <div className="w-[250px] h-[250px] rounded-2xl shadow-[26px_22px_51px_0px_#00000024]">
     <div className="w-[100px] h-[100px] bg-[#C1F1C6] rounded-[50%] text-center mx-auto grid place-items-center mt-[20px]">
       <img src="./src/img/pngwing 4.png" alt="" />
     </div>
@@ -19,7 +19,7 @@ function Body() {
     <p className='text-[#555555] text-center pt-[20px]'>(86 dishes)</p>
   </div>
 
-  <div className="w-[250px] h-[250px] rounded-2xl border-2 border-[#555555]">
+  <div className="w-[250px] h-[250px] rounded-2xl shadow-[26px_22px_51px_0px_#00000024]">
     <div className="w-[100px] h-[100px] bg-[#C1F1C6] rounded-[50%] text-center mx-auto grid place-items-center mt-[20px]">
       <img src="./src/img/pngwing 6.png" alt="" />
     </div>
@@ -27,7 +27,7 @@ function Body() {
     <p className='text-[#555555] text-center pt-[20px]'>(12 break fast)</p>
   </div>
 
-  <div className="w-[250px] h-[250px] rounded-2xl border-2 border-[#555555]">
+  <div className="w-[250px] h-[250px] rounded-2xl shadow-[26px_22px_51px_0px_#00000024]">
     <div className="w-[100px] h-[100px] bg-[#C1F1C6] rounded-[50%] text-center mx-auto grid place-items-center mt-[20px]">
       <img src="./src/img/pngwing 3.png" alt="" />
     </div>
@@ -35,7 +35,7 @@ function Body() {
     <p className='text-[#555555] text-center pt-[20px]'>(48 dessert)</p>
   </div>
 
-  <div className="w-[250px] h-[250px] rounded-2xl border-2 border-[#555555]">
+  <div className="w-[250px] h-[250px] rounded-2xl shadow-[26px_22px_51px_0px_#00000024]">
     <div className="w-[100px] h-[100px] bg-[#C1F1C6] rounded-[50%] text-center mx-auto grid place-items-center mt-[20px]">
       <img src="./src/img/pngwing 7.png" alt="" />
     </div>
