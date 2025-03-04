@@ -11,11 +11,13 @@ import { FreeMode, Navigation } from 'swiper/modules';
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 
+import Fattoush from './../../img/Fattoush salad.png';
+import star from './../../img/icons/fi-sr-star.svg'
 
 function Menu() {
     return (
-        <div className='w-[1300px] mx-auto my-[208px]'>
-            <span className='text-[#FF6868] text-[20px] font-bold  spac'>Special Dishes</span>
+        <div className='w-[1300px] mx-auto my-[150px]'>
+            <span className='text-[#FF6868] text-[20px] font-bold'>Special Dishes</span>
 
             <div className='swiper-position'>
                 <h2 className='text-[60px] max-w-[580px] font-bold'>Standout Dishes From Our Menu</h2>
@@ -28,8 +30,8 @@ function Menu() {
 
             </div>
             <Swiper
-                slidesPerView={4}
-                spaceBetween={0}
+                slidesPerView={3}
+                spaceBetween={40}
                 loop={true}
                 navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev', }}
                 freeMode={true}
@@ -37,59 +39,62 @@ function Menu() {
                 className=" mt-16"
             >
                 <SwiperSlide>
-                    <div className="w-[250px] h-[250px] rounded-2xl shadow-xl">
-                        <div className="w-[100px] h-[100px] bg-[#C1F1C6] rounded-[50%] text-center mx-auto grid place-items-center mt-[20px]">
-                            <img src="./src/img/pngwing 4.png" alt="" />
+                    <div className="rounded-2xl shadow-xl py-[36px] px-[46px]">
+                        <img className='w-[276px] mx-auto' src={Fattoush} alt="" />
+                        <p className='text-[30px] font-bold'>Fattoush salad</p>
+                        <p className='text-[#555555]'>Description of the item</p>
+                        <div className='flex justify-between items-center mt-4'>
+                            <p><span className='text-[#FF6868]'>$</span>24.00</p>
+                            <div className='flex gap-6'>
+                                <img src={star} alt="star" />
+                                <p>4.9</p>
+                            </div>
                         </div>
-                        <h1 className='text-1xl font-bold text-center pt-[20px]'>Main Dish</h1>
-                        <p className='text-[#555555] text-center pt-[20px]'>(86 dishes)</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="w-[250px] h-[250px] rounded-2xl shadow-xl">
-                        <div className="w-[100px] h-[100px] bg-[#C1F1C6] rounded-[50%] text-center mx-auto grid place-items-center mt-[20px]">
-                            <img src="./src/img/pngwing 4.png" alt="" />
+                    <div className="rounded-2xl shadow-xl py-[36px] px-[46px]">
+                        <img className='w-[276px] mx-auto' src={Fattoush} alt="" />
+                        <p className='text-[30px] font-bold'>Fattoush salad</p>
+                        <p className='text-[#555555]'>Description of the item</p>
+                        <div className='flex justify-between items-center mt-4'>
+                            <p><span className='text-[#FF6868]'>$</span>24.00</p>
+                            <div className='flex gap-6'>
+                                <img src={star} alt="star" />
+                                <p>4.9</p>
+                            </div>
                         </div>
-                        <h1 className='text-1xl font-bold text-center pt-[20px]'>Main Dish</h1>
-                        <p className='text-[#555555] text-center pt-[20px]'>(86 dishes)</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="w-[250px] h-[250px] rounded-2xl shadow-xl">
-                        <div className="w-[100px] h-[100px] bg-[#C1F1C6] rounded-[50%] text-center mx-auto grid place-items-center mt-[20px]">
-                            <img src="./src/img/pngwing 4.png" alt="" />
+                    <div className="rounded-2xl shadow-xl py-[36px] px-[46px]">
+                        <img className='w-[276px] mx-auto' src={Fattoush} alt="" />
+                        <p className='text-[30px] font-bold'>Fattoush salad</p>
+                        <p className='text-[#555555]'>Description of the item</p>
+                        <div className='flex justify-between items-center mt-4'>
+                            <p><span className='text-[#FF6868]'>$</span>24.00</p>
+                            <div className='flex gap-6'>
+                                <img src={star} alt="star" />
+                                <p>4.9</p>
+                            </div>
                         </div>
-                        <h1 className='text-1xl font-bold text-center pt-[20px]'>Main Dish</h1>
-                        <p className='text-[#555555] text-center pt-[20px]'>(86 dishes)</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="w-[250px] h-[250px] rounded-2xl shadow-xl">
-                        <div className="w-[100px] h-[100px] bg-[#C1F1C6] rounded-[50%] text-center mx-auto grid place-items-center mt-[20px]">
-                            <img src="./src/img/pngwing 4.png" alt="" />
+                    <div className="rounded-2xl shadow-xl py-[36px] px-[46px]">
+                        <img className='w-[276px] mx-auto' src={Fattoush} alt="" />
+                        <p className='text-[30px] font-bold'>Fattoush salad</p>
+                        <p className='text-[#555555]'>Description of the item</p>
+                        <div className='flex justify-between items-center mt-4'>
+                            <p><span className='text-[#FF6868]'>$</span>24.00</p>
+                            <div className='flex gap-6'>
+                                <img src={star} alt="star" />
+                                <p>4.9</p>
+                            </div>
                         </div>
-                        <h1 className='text-1xl font-bold text-center pt-[20px]'>Main Dish</h1>
-                        <p className='text-[#555555] text-center pt-[20px]'>(86 dishes)</p>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div className="w-[250px] h-[250px] rounded-2xl shadow-xl">
-                        <div className="w-[100px] h-[100px] bg-[#C1F1C6] rounded-[50%] text-center mx-auto grid place-items-center mt-[20px]">
-                            <img src="./src/img/pngwing 4.png" alt="" />
-                        </div>
-                        <h1 className='text-1xl font-bold text-center pt-[20px]'>Main Dish</h1>
-                        <p className='text-[#555555] text-center pt-[20px]'>(86 dishes)</p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="w-[250px] h-[250px] rounded-2xl shadow-xl">
-                        <div className="w-[100px] h-[100px] bg-[#C1F1C6] rounded-[50%] text-center mx-auto grid place-items-center mt-[20px]">
-                            <img src="./src/img/pngwing 4.png" alt="" />
-                        </div>
-                        <h1 className='text-1xl font-bold text-center pt-[20px]'>Main Dish</h1>
-                        <p className='text-[#555555] text-center pt-[20px]'>(86 dishes)</p>
-                    </div>
-                </SwiperSlide>
+
             </Swiper>
 
         </div>

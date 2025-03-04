@@ -7,18 +7,27 @@ import Menu from './Components/Menu/Menu.jsx'
 import Section from './Components/Section/Section.jsx';
 import Testimonials from './Components/Testimonials/Testimonials.jsx';
 import Footer from './Components/Footer/Footer.jsx'
+
 function App() {
-
-
   return (
     <>
       <header>
         <Header />
-        <Body />
-        <Menu />
-        <Testimonials />
-        <Section />
       </header>
+      <main>
+        <section>
+          <Body />
+        </section>
+        <section>
+          <Menu />
+        </section>
+        <section>
+          <Testimonials />
+        </section>
+        <section>
+          <Section />
+        </section>
+      </main>
       <footer>
         <Footer />
       </footer>
