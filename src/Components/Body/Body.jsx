@@ -6,8 +6,8 @@ function Body() {
     <>
 <div className="max-w-[80%] mx-auto">
 
-<h1 className='text-[#FF6868] font-bold text-center'>Customer Favorites</h1>
-<h1 className='text-3xl font-bold text-center pt-[20px]'>Popular Catagories</h1>
+<h1 className='text-[#FF6868] font-bold text-center text-2xl'>Customer Favorites</h1>
+<h1 className='text-5xl font-bold text-center pt-[20px]'>Popular Catagories</h1>
 
 <div className="flex items-center justify-between mt-[80px]">
 
