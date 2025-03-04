@@ -8,7 +8,8 @@ import 'swiper/css/navigation';
 
 import { FreeMode, Navigation } from 'swiper/modules';
 
-import { RiArrowDropRightLine } from "react-icons/ri";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 
 
 function Menu() {
@@ -18,18 +19,19 @@ function Menu() {
 
             <div className='swiper-position'>
                 <h2 className='text-[60px] max-w-[580px] font-bold'>Standout Dishes From Our Menu</h2>
+                <button className='swiper-button-next'>
+                    <MdOutlineKeyboardArrowRight />
+                </button>
+                <button className='swiper-button-prev'>
+                    <MdOutlineKeyboardArrowLeft />
+                </button>
 
-                <div>
-                <RiArrowDropRightLine className='text-[120px]' />
-                    <button className='swiper-button-prev'></button>
-                    <button className='swiper-button-next'>arrow next</button>
-                </div>
             </div>
             <Swiper
                 slidesPerView={4}
                 spaceBetween={0}
                 loop={true}
-                navigation={true}
+                navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev', }}
                 freeMode={true}
                 modules={[FreeMode, Navigation]}
                 className=" mt-16"

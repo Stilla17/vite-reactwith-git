@@ -4,7 +4,7 @@ function Body() {
 
   return (
     <>
-      <div className="max-w-[1300px] mx-auto">
+      <div className="max-w-[1300px] mx-auto mt-[190px]">
 
         <h1 className='text-[#FF6868] font-bold text-center'>Customer Favorites</h1>
         <h1 className='text-3xl font-bold text-center pt-[20px]'>Popular Catagories</h1>
