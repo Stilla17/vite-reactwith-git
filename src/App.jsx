@@ -1,19 +1,17 @@
-import { useState } from 'react'
 import './App.css'
-import Nav from './Components/Navigation/Nav'
 import Header from './Components/Header/Header'
-import Knee from './Components/Knee/Knee.jsx';
+import './Components/Body/Body'
 import Body from './Components/Body/Body.jsx';
+import Menu from './Components/Menu/Menu.jsx'
 function App() {
+
 
   return (
     <>
       <header>
-      <Header />
-      <Body />
-      <Knee />
-    
-
+        <Header />
+        <Body />
+        <Menu />
       </header>
     </>
   )

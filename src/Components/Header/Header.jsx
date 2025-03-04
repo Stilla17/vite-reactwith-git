@@ -1,10 +1,12 @@
 import React from 'react'
 import girlBg from './../../assets/img/Intersect.png';
+import Nav from '../Navigation/Nav';
 
 function Header() {
   return (
     <>
-      <div className='w-[1456px] h-[100vh] mx-auto border-amber-500'>
+      <Nav/>
+      <div className='w-[1300px] mx-auto border-amber-500'>
 
         <div className='flex justify-between items-center'>
           {/* text */}
