@@ -5,6 +5,8 @@ import './Components/Body/Body'
 import Body from './Components/Body/Body.jsx';
 import Menu from './Components/Menu/Menu.jsx'
 import Section from './Components/Section/Section.jsx';
+import Testimonials from './Components/Testimonials/Testimonials.jsx';
+import Footer from './Components/Footer/Footer.jsx'
 function App() {
 
 
@@ -14,8 +16,12 @@ function App() {
         <Header />
         <Body />
         <Menu />
+        <Testimonials />
         <Section />
       </header>
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }

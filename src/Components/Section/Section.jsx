@@ -2,7 +2,7 @@ import React from 'react'
 import image from './../../assets/img/image.svg'
 function Section() {
     return (
-        <div className='w-[1300px] mx-auto my-[208px]'>
+        <div className='w-[1300px] mx-auto'>
             <div className='flex gap-[250px] justify-center items-center'>
                 <div>
                     <h2 className='text-[#FF6868] text-[26px] uppercase'>Our Story & Services</h2>
@@ -18,17 +18,17 @@ function Section() {
                     </div>
                     <div className='w-[250px] text-center shadow-xl rounded-3xl p-6'>
                         <div className='w-[60px] mx-auto'><img src={image} alt="" /></div>
-                        <h2 className='text-2xl text-[#5FE26C] uppercase font-bold my-2'>Catering</h2>
+                        <h2 className='text-2xl text-[#5FE26C] uppercase font-bold my-2'>Fast delivery</h2>
                         <p className='text-md text-[#90BD95] text-[20px]'>Delight your guests with our flavors and  presentation</p>
                     </div>
                     <div className='w-[250px] text-center shadow-xl rounded-3xl p-6'>
                         <div className='w-[60px] mx-auto'><img src={image} alt="" /></div>
-                        <h2 className='text-2xl text-[#5FE26C] uppercase font-bold my-2'>Catering</h2>
+                        <h2 className='text-2xl text-[#5FE26C] uppercase font-bold my-2'>Online Ordering</h2>
                         <p className='text-md text-[#90BD95] text-[20px]'>Delight your guests with our flavors and  presentation</p>
                     </div>
                     <div className='w-[250px] text-center shadow-xl rounded-3xl p-6'>
                         <div className='w-[60px] mx-auto'><img src={image} alt="" /></div>
-                        <h2 className='text-2xl text-[#5FE26C] uppercase font-bold my-2'>Catering</h2>
+                        <h2 className='text-2xl text-[#5FE26C] uppercase font-bold my-2'>Gift Cards</h2>
                         <p className='text-md text-[#90BD95] text-[20px]'>Delight your guests with our flavors and  presentation</p>
                     </div>
                 </div>
